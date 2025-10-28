@@ -1,5 +1,5 @@
 <launch>
-    <let name="urdf_path" value="$(find-pkg-share robotic_arm_description)/urdf/robotic_arm.urdf" />
+    <let name="urdf_path" value="$(find-pkg-share robotic_arm_description)/urdf/main_robotic_arm.urdf.xacro" />
     <let name="rviz_path" value="$(find-pkg-share robotic_arm_description)/rviz/robot_arm.rviz" />
     
 
