@@ -1,0 +1,42 @@
+# === ROS2 workspace build and log files ===
+build/
+install/
+log/
+.colcon/
+*.pyc
+__pycache__/
+*.swp
+
+# === Gazebo and simulation files ===
+*.world
+*.state
+*.sdf
+*.db
+*.bak
+*.tmp
+
+# === RViz and launch session files ===
+*.rviz
+*.launch.pyc
+*.launch.xmlc
+
+# === VSCode and other editor files ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === System and OS files ===
+.DS_Store
+Thumbs.db
+
+# === Python virtual environments ===
+venv/
+.env/
+
+# === Generated data or recordings ===
+*.bag
+*.bag.active
+*.bag.tmp
+*.csv
+*.mp4
+*.log
