@@ -2,5 +2,12 @@
 <robot  name= "robotic_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
    <xacro:include filename="common_properties.xacro" />
    <xacro:include filename="robotic_arm.xacro" />
+   <xacro:include filename="gripper.xacro" />
+
+   <joint name="arm_gripper_joint" type="fixed">
+      <parent link="tool_link" />
+      <child link="gripper_base_link" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+   </joint>
 
 </robot>
